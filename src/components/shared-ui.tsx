@@ -9,12 +9,11 @@ export function SectionTitle({
   description?: string;
   align?: "center" | "left";
 }) {
-  const alignment =
-    align === "center" ? "mx-auto text-center" : "text-left";
+  const alignment = align === "center" ? "mx-auto text-center" : "text-left";
 
   return (
     <div className={`${alignment} max-w-2xl`}>
-      <span className="inline-block rounded-full border border-indigo-400/30 bg-indigo-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-indigo-300">
+      <span className="inline-block rounded-full border border-emerald-400/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-emerald-300">
         {etikette}
       </span>
       <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
