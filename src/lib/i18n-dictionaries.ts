@@ -151,7 +151,7 @@ export const dictionaries: Record<Locale, Dict> = {
       faq: "FAQ",
     },
     home: {
-      badge: "Agence web & mobile · Paris",
+      badge: "Agence web & mobile · Tunisie",
       heroTitleStart: "Nous créons des",
       heroHighlight: "applications",
       heroTitleEnd: "que vos utilisateurs adorent",
@@ -182,7 +182,7 @@ export const dictionaries: Record<Locale, Dict> = {
       faqTitle: "Vos questions, nos réponses",
       contactTitle: "Un projet en tête ? Parlons-en.",
       contactText: "Réponse sous 24 h ouvrées, sans engagement.",
-      contactCity: "Paris, France",
+      contactCity: "Monastir, Tunisie",
       contactCta: "Lancer la conversation",
       ctaTitle: "Prêt à faire décoller votre projet ?",
       ctaText:
@@ -461,7 +461,7 @@ export const dictionaries: Record<Locale, Dict> = {
         },
       ],
       stats: [
-        { value: "60+", label: "Projets livrés" },
+        { value: "30+", label: "Projets livrés" },
         { value: "12", label: "Années d'expérience" },
         { value: "98 %", label: "Clients satisfaits" },
         { value: "8", label: "Experts passionnés" },
@@ -505,7 +505,7 @@ export const dictionaries: Record<Locale, Dict> = {
       faq: "FAQ",
     },
     home: {
-      badge: "Web & Mobile Agency · Paris",
+      badge: "Web & Mobile Agency · Tunisia",
       heroTitleStart: "We build",
       heroHighlight: "applications",
       heroTitleEnd: "your users will love",
@@ -536,7 +536,7 @@ export const dictionaries: Record<Locale, Dict> = {
       faqTitle: "Your questions, answered",
       contactTitle: "Got a project in mind? Let's talk.",
       contactText: "Reply within 24 business hours, no strings attached.",
-      contactCity: "Paris, France",
+      contactCity: "Monastir, Tunisia",
       contactCta: "Start the conversation",
       ctaTitle: "Ready to launch your project?",
       ctaText:
@@ -812,7 +812,7 @@ export const dictionaries: Record<Locale, Dict> = {
         },
       ],
       stats: [
-        { value: "60+", label: "Projects delivered" },
+        { value: "30+", label: "Projects delivered" },
         { value: "12", label: "Years of experience" },
         { value: "98%", label: "Satisfied clients" },
         { value: "8", label: "Passionate experts" },
@@ -856,7 +856,7 @@ export const dictionaries: Record<Locale, Dict> = {
       faq: "الأسئلة الشائعة",
     },
     home: {
-      badge: "وكالة ويب وجوال · باريس",
+      badge: "وكالة ويب وجوال · تونس",
       heroTitleStart: "نصنع",
       heroHighlight: "تطبيقات",
       heroTitleEnd: "يعشقها المستخدمون",

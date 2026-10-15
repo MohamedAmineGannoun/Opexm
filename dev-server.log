@@ -1,8 +1,8 @@
 ▲ Next.js 16.4.0 (Turbopack)
-- Local:         http://localhost:59902
-- Network:       http://192.168.1.101:59902
-✓ Ready in 866ms
-✓ Running next.config.ts took 53ms
+- Local:         http://localhost:64422
+- Network:       http://192.168.1.101:64422
+✓ Ready in 738ms
+✓ Running next.config.ts took 48ms
 ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead.
 
   To migrate automatically, run:
@@ -12,4 +12,31 @@
 - Cache Components enabled
 - Partial Prefetching enabled
 
+ GET /fr/realisations 200 in 1965ms (next.js: 867ms, proxy.ts: 92ms, generate-params: 637ms, application-code: 369ms)
+ GET /fr/realisations 200 in 259ms (next.js: 7ms, proxy.ts: 8ms, generate-params: 5ms, application-code: 239ms)
+ GET /fr/realisations 200 in 126ms (next.js: 5ms, proxy.ts: 3ms, generate-params: 0.0ms, application-code: 117ms)
+ GET /fr/realisations 200 in 296ms (next.js: 39ms, proxy.ts: 13ms, generate-params: 0.0ms, application-code: 244ms)
+ GET /ar/realisations 200 in 255ms (next.js: 5ms, proxy.ts: 4ms, generate-params: 3ms, application-code: 244ms)
+✓ Compiled in 16ms
+ GET /ar/realisations 200 in 112ms (next.js: 24ms, proxy.ts: 6ms, generate-params: 4ms, application-code: 79ms)
+ GET /ar/realisations 200 in 189ms (next.js: 4ms, proxy.ts: 3ms, generate-params: 3ms, application-code: 180ms)
+ GET /ar/realisations 200 in 293ms (next.js: 8ms, proxy.ts: 5ms, generate-params: 4ms, application-code: 277ms)
+ GET /ar/realisations 200 in 376ms (next.js: 18ms, proxy.ts: 51ms, generate-params: 6ms, application-code: 302ms)
+ GET /fr/realisations 200 in 72ms (next.js: 8ms, proxy.ts: 3ms, generate-params: 2ms, application-code: 58ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /fr 200 in 713ms (next.js: 51ms, proxy.ts: 3ms, generate-params: 574ms, application-code: 85ms)
+ GET /fr/realisations 200 in 73ms (next.js: 17ms, proxy.ts: 2ms, generate-params: 2ms, application-code: 51ms)
+ GET /fr/contact 200 in 608ms (next.js: 30ms, proxy.ts: 2.0ms, generate-params: 541ms, application-code: 35ms)
+ GET /fr/contact 200 in 47ms (next.js: 4ms, proxy.ts: 3ms, generate-params: 3ms, application-code: 36ms)
+ GET /fr/realisations 200 in 70ms (next.js: 5ms, proxy.ts: 2ms, generate-params: 3ms, application-code: 60ms)
+ GET /fr/contact 200 in 47ms (next.js: 5ms, proxy.ts: 3ms, generate-params: 3ms, application-code: 36ms)
+ GET /fr/contact 200 in 46ms (next.js: 4ms, proxy.ts: 2ms, generate-params: 3ms, application-code: 37ms)
+ GET /fr 200 in 85ms (next.js: 10ms, proxy.ts: 3ms, generate-params: 3ms, application-code: 70ms)
+ GET /fr 200 in 267ms (next.js: 9ms, proxy.ts: 5ms, generate-params: 3ms, application-code: 250ms)
+ GET /fr/realisations 200 in 68ms (next.js: 7ms, proxy.ts: 3ms, generate-params: 3ms, application-code: 55ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /fr/contact 200 in 52ms (next.js: 6ms, proxy.ts: 3ms, generate-params: 3ms, application-code: 40ms)
+ GET /fr/services 200 in 660ms (next.js: 36ms, proxy.ts: 2ms, generate-params: 555ms, application-code: 66ms)
+ GET /fr 200 in 159ms (next.js: 6ms, proxy.ts: 3ms, generate-params: 3ms, application-code: 148ms)
+ GET /fr 200 in 227ms (next.js: 26ms, proxy.ts: 2ms, generate-params: 15ms, application-code: 183ms)
 [?25h

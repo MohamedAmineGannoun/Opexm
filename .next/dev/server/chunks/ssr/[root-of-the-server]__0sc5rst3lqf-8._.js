@@ -638,8 +638,10 @@ const techStack = [
     "React",
     "TypeScript",
     "Node.js",
-    "React Native",
-    "Flutter",
+    "iOS",
+    "Android",
+    "Swift",
+    "Kotlin",
     "PostgreSQL",
     "MongoDB",
     "GraphQL",
@@ -648,10 +650,10 @@ const techStack = [
     "Figma"
 ];
 const contactInfo = {
-    email: "hello@opexm.fr",
-    phone: "+33123456789",
-    phoneDisplay: "+33 1 23 45 67 89",
-    address: "12 rue de la Réussite, 75008 Paris",
+    email: "contact.opexm@gmail.com",
+    phone: "+21654532308",
+    phoneDisplay: "+216 54 532 308",
+    address: "Monastir, Tunisia",
     hours: "Lun – Ven · 9h00 – 18h30"
 };
 }),

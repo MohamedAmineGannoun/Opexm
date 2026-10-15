@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Code2, Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { dictionaries } from "@/lib/i18n-dictionaries";
 import { localePath, type Locale } from "@/lib/i18n-config";
 
@@ -45,9 +45,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <Link href={localePath("/", locale)} className="flex items-center gap-2">
-              <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-500 to-green-600">
-                <Code2 className="h-5 w-5 text-white" />
-              </span>
+              <img src="/opexm-logo.svg" alt="Opexm" className="h-9 w-9" />
               <span className="text-lg font-semibold tracking-tight">
                 Opexm<span className="text-emerald-400">.</span>
               </span>
@@ -84,19 +82,19 @@ export function SiteFooter({ locale }: { locale: Locale }) {
             <ul className="mt-4 space-y-3 text-sm text-slate-400">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-emerald-400" />
-                <a href="mailto:hello@opexm.fr" className="hover:text-white">
-                  hello@opexm.fr
+                <a href="mailto:contact.opexm@gmail.com" className="hover:text-white">
+                  contact.opexm@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-emerald-400" />
-                <a href="tel:+33123456789" className="hover:text-white">
-                  +33 1 23 45 67 89
+                <a href="tel:+21654532308" className="hover:text-white">
+                  +216 54 532 308
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-emerald-400" />
-                <span>Paris, France</span>
+                <span>Monastir, Tunisia</span>
               </li>
             </ul>
           </div>

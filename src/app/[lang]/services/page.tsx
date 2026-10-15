@@ -6,6 +6,7 @@ import { SectionTitle } from "@/components/shared-ui";
 import { dictionaries } from "@/lib/i18n-dictionaries";
 import { isLocale, localePath, type Locale } from "@/lib/i18n-config";
 import { serviceIcons, techStack } from "@/lib/data-static";
+import { ServiceVisual } from "@/components/service-visual";
 
 export default async function ServicesPage({
   params,
@@ -67,40 +68,8 @@ export default async function ServicesPage({
                   </Link>
                 </div>
 
-                <div
-                  className={`rounded-3xl border border-white/10 p-6 ${
-                    index % 2 === 1 ? "lg:order-1" : ""
-                  }`}
-                >
-                  <div className="rounded-2xl bg-white/[0.03] p-6">
-                    <div className="flex items-center justify-between">
-                      <div className="flex gap-1.5">
-                        <span className="h-3 w-3 rounded-full bg-rose-400/60" />
-                        <span className="h-3 w-3 rounded-full bg-amber-400/60" />
-                        <span className="h-3 w-3 rounded-full bg-emerald-400/60" />
-                      </div>
-                      <div className="h-2 w-16 rounded-full bg-white/10" />
-                    </div>
-                    <div className="mt-6 space-y-3">
-                      <div className="h-3 w-3/4 rounded-full bg-gradient-to-r from-emerald-400/50 to-transparent rtl:bg-gradient-to-l" />
-                      <div className="h-2 w-full rounded-full bg-white/10" />
-                      <div className="h-2 w-5/6 rounded-full bg-white/10" />
-                      <div className="h-2 w-2/3 rounded-full bg-white/10" />
-                      <div className="mt-4 grid grid-cols-3 gap-3">
-                        <div className="h-16 rounded-lg bg-gradient-to-br from-emerald-500/25 to-transparent" />
-                        <div className="h-16 rounded-lg bg-gradient-to-br from-green-500/25 to-transparent" />
-                        <div className="h-16 rounded-lg bg-gradient-to-br from-teal-500/25 to-transparent" />
-                      </div>
-                      <div className="mt-4 flex items-center gap-3">
-                        <div className="h-9 w-9 rounded-full bg-gradient-to-br from-emerald-500 to-green-600" />
-                        <div className="flex-1 space-y-2">
-                          <div className="h-2 w-1/2 rounded-full bg-white/15" />
-                          <div className="h-2 w-1/3 rounded-full bg-white/10" />
-                        </div>
-                        <div className="h-8 w-20 rounded-full bg-emerald-500/40" />
-                      </div>
-                    </div>
-                  </div>
+                <div className={index % 2 === 1 ? "lg:order-1" : ""}>
+                  <ServiceVisual slug={slugs[index]} />
                 </div>
               </div>
             );

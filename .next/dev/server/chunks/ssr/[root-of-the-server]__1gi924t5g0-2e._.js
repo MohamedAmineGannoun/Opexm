@@ -124,6 +124,9 @@ async function generateMetadata({ params }) {
             description: dict.meta.description,
             type: "website",
             locale: lang === "ar" ? "ar" : lang === "en" ? "en_US" : "fr_FR"
+        },
+        icons: {
+            icon: "/opexm-logo.svg"
         }
     };
 }
@@ -143,7 +146,7 @@ async function LangLayout({ children, params }) {
                     locale: locale
                 }, void 0, false, {
                     fileName: "[project]/src/app/[lang]/layout.tsx",
-                    lineNumber: 71,
+                    lineNumber: 74,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -151,25 +154,25 @@ async function LangLayout({ children, params }) {
                     children: children
                 }, void 0, false, {
                     fileName: "[project]/src/app/[lang]/layout.tsx",
-                    lineNumber: 72,
+                    lineNumber: 75,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$site$2d$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SiteFooter"], {
                     locale: locale
                 }, void 0, false, {
                     fileName: "[project]/src/app/[lang]/layout.tsx",
-                    lineNumber: 73,
+                    lineNumber: 76,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/[lang]/layout.tsx",
-            lineNumber: 70,
+            lineNumber: 73,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/[lang]/layout.tsx",
-        lineNumber: 65,
+        lineNumber: 68,
         columnNumber: 5
     }, this);
 }
@@ -186,7 +189,6 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/code-xml.mjs [app-rsc] (ecmascript) <export default as Code2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail.mjs [app-rsc] (ecmascript) <export default as Mail>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.mjs [app-rsc] (ecmascript) <export default as MapPin>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.mjs [app-rsc] (ecmascript) <export default as Phone>");
@@ -251,15 +253,10 @@ function SiteFooter({ locale }) {
                                     href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2d$config$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["localePath"])("/", locale),
                                     className: "flex items-center gap-2",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-500 to-green-600",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__["Code2"], {
-                                                className: "h-5 w-5 text-white"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/site-footer.tsx",
-                                                lineNumber: 49,
-                                                columnNumber: 17
-                                            }, this)
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "/opexm-logo.svg",
+                                            alt: "Opexm",
+                                            className: "h-9 w-9"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/site-footer.tsx",
                                             lineNumber: 48,
@@ -274,13 +271,13 @@ function SiteFooter({ locale }) {
                                                     children: "."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 52,
+                                                    lineNumber: 50,
                                                     columnNumber: 22
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 51,
+                                            lineNumber: 49,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -294,7 +291,7 @@ function SiteFooter({ locale }) {
                                     children: dict.footer.tagline
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 55,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -310,7 +307,7 @@ function SiteFooter({ locale }) {
                                         children: section.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/site-footer.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 60,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -322,23 +319,23 @@ function SiteFooter({ locale }) {
                                                     children: link.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 68,
+                                                    lineNumber: 66,
                                                     columnNumber: 21
                                                 }, this)
                                             }, link.href + link.label, false, {
                                                 fileName: "[project]/src/components/site-footer.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 65,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/site-footer.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, section.title, true, {
                                 fileName: "[project]/src/components/site-footer.tsx",
-                                lineNumber: 61,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -348,7 +345,7 @@ function SiteFooter({ locale }) {
                                     children: dict.footer.contact
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 81,
+                                    lineNumber: 79,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -361,22 +358,22 @@ function SiteFooter({ locale }) {
                                                     className: "h-4 w-4 text-emerald-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 84,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: "mailto:hello@opexm.fr",
+                                                    href: "mailto:contact.opexm@gmail.com",
                                                     className: "hover:text-white",
-                                                    children: "hello@opexm.fr"
+                                                    children: "contact.opexm@gmail.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 85,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -386,22 +383,22 @@ function SiteFooter({ locale }) {
                                                     className: "h-4 w-4 text-emerald-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 90,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: "tel:+33123456789",
+                                                    href: "tel:+21654532308",
                                                     className: "hover:text-white",
-                                                    children: "+33 1 23 45 67 89"
+                                                    children: "+216 54 532 308"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 91,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 91,
+                                            lineNumber: 89,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -411,32 +408,32 @@ function SiteFooter({ locale }) {
                                                     className: "mt-0.5 h-4 w-4 shrink-0 text-emerald-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 98,
+                                                    lineNumber: 96,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "Paris, France"
+                                                    children: "Monastir, Tunisia"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 97,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 95,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/site-footer.tsx",
-                            lineNumber: 80,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this)
                     ]
@@ -458,7 +455,7 @@ function SiteFooter({ locale }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/site-footer.tsx",
-                            lineNumber: 106,
+                            lineNumber: 104,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -466,13 +463,13 @@ function SiteFooter({ locale }) {
                             children: dict.footer.madeWith
                         }, void 0, false, {
                             fileName: "[project]/src/components/site-footer.tsx",
-                            lineNumber: 109,
+                            lineNumber: 107,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/site-footer.tsx",
-                    lineNumber: 105,
+                    lineNumber: 103,
                     columnNumber: 9
                 }, this)
             ]
@@ -590,7 +587,7 @@ const dictionaries = {
             faq: "FAQ"
         },
         home: {
-            badge: "Agence web & mobile · Paris",
+            badge: "Agence web & mobile · Tunisie",
             heroTitleStart: "Nous créons des",
             heroHighlight: "applications",
             heroTitleEnd: "que vos utilisateurs adorent",
@@ -616,7 +613,7 @@ const dictionaries = {
             faqTitle: "Vos questions, nos réponses",
             contactTitle: "Un projet en tête ? Parlons-en.",
             contactText: "Réponse sous 24 h ouvrées, sans engagement.",
-            contactCity: "Paris, France",
+            contactCity: "Monastir, Tunisie",
             contactCta: "Lancer la conversation",
             ctaTitle: "Prêt à faire décoller votre projet ?",
             ctaText: "Racontez-nous votre idée. Nous revenons vers vous avec un plan d'action et une estimation claire, gratuitement.",
@@ -869,7 +866,7 @@ const dictionaries = {
             ],
             stats: [
                 {
-                    value: "60+",
+                    value: "30+",
                     label: "Projets livrés"
                 },
                 {
@@ -921,7 +918,7 @@ const dictionaries = {
             faq: "FAQ"
         },
         home: {
-            badge: "Web & Mobile Agency · Paris",
+            badge: "Web & Mobile Agency · Tunisia",
             heroTitleStart: "We build",
             heroHighlight: "applications",
             heroTitleEnd: "your users will love",
@@ -947,7 +944,7 @@ const dictionaries = {
             faqTitle: "Your questions, answered",
             contactTitle: "Got a project in mind? Let's talk.",
             contactText: "Reply within 24 business hours, no strings attached.",
-            contactCity: "Paris, France",
+            contactCity: "Monastir, Tunisia",
             contactCta: "Start the conversation",
             ctaTitle: "Ready to launch your project?",
             ctaText: "Tell us about your idea. We'll come back with an action plan and a clear estimate, for free.",
@@ -1200,7 +1197,7 @@ const dictionaries = {
             ],
             stats: [
                 {
-                    value: "60+",
+                    value: "30+",
                     label: "Projects delivered"
                 },
                 {
@@ -1252,7 +1249,7 @@ const dictionaries = {
             faq: "الأسئلة الشائعة"
         },
         home: {
-            badge: "وكالة ويب وجوال · باريس",
+            badge: "وكالة ويب وجوال · تونس",
             heroTitleStart: "نصنع",
             heroHighlight: "تطبيقات",
             heroTitleEnd: "يعشقها المستخدمون",

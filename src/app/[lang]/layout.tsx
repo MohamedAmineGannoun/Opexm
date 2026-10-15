@@ -6,6 +6,7 @@ import { dictionaries } from "@/lib/i18n-dictionaries";
 import { dirOf, isLocale, type Locale } from "@/lib/i18n-config";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { RevealObserver } from "@/components/reveal-observer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,6 +47,9 @@ export async function generateMetadata({
       type: "website",
       locale: lang === "ar" ? "ar" : lang === "en" ? "en_US" : "fr_FR",
     },
+    icons: {
+      icon: "/opexm-logo.svg",
+    },
   };
 }
 
@@ -71,6 +75,7 @@ export default async function LangLayout({
         <SiteHeader locale={locale} />
         <main className="flex-1">{children}</main>
         <SiteFooter locale={locale} />
+        <RevealObserver />
       </body>
     </html>
   );

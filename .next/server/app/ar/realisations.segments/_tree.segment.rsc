@@ -1,0 +1,9 @@
+:HL["/_next/static/chunks/3r4t76oetl8hc.css","style"]
+:HL["/_next/static/media/744885950b1fe0ff-s.p.30d2r2x65bwdm.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/opexm-logo.svg","image"]
+3:[["children",{"s":"__PAGE__","h":49314}]]
+2:[["children",{"s":"realisations","h":49250,"c":"$Q3"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":null,"s":[]},"h":49266,"c":"$Q2"}]]
+0:{"b":"JONW3FZQCoR1WMoEraNK4","t":{"t":{"s":"","h":49234,"c":"$Q1"}}}

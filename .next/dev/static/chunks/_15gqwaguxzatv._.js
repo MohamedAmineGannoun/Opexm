@@ -1890,6 +1890,33 @@ function SiteHeader({ locale }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex items-center gap-3",
                         children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                                className: "hidden items-center gap-6 lg:flex",
+                                children: [
+                                    navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: link.href,
+                                            className: "text-sm font-medium text-slate-300 transition-colors hover:text-white",
+                                            children: link.label
+                                        }, link.href, false, {
+                                            fileName: "[project]/src/components/site-header.tsx",
+                                            lineNumber: 57,
+                                            columnNumber: 15
+                                        }, this)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2d$config$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["localePath"])("/contact", locale),
+                                        className: "rounded-full bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-emerald-600/25 transition hover:bg-emerald-500",
+                                        children: dict.header.startProject
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/site-header.tsx",
+                                        lineNumber: 65,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/site-header.tsx",
+                                lineNumber: 55,
+                                columnNumber: 11
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "relative",
                                 children: [
@@ -1904,27 +1931,27 @@ function SiteHeader({ locale }) {
                                                 className: "h-3.5 w-3.5"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/site-header.tsx",
-                                                lineNumber: 61,
+                                                lineNumber: 82,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2d$config$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["localeNames"][locale]
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/site-header.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 83,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                                 className: `h-3 w-3 transition-transform ${langOpen ? "rotate-180" : ""}`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/site-header.tsx",
-                                                lineNumber: 63,
+                                                lineNumber: 84,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/site-header.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 75,
                                         columnNumber: 13
                                     }, this),
                                     langOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1936,7 +1963,7 @@ function SiteHeader({ locale }) {
                                                 onClick: ()=>setLangOpen(false)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/site-header.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 91,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1952,62 +1979,35 @@ function SiteHeader({ locale }) {
                                                                     className: "h-4 w-4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/site-header.tsx",
-                                                                    lineNumber: 87,
+                                                                    lineNumber: 108,
                                                                     columnNumber: 42
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/site-header.tsx",
-                                                            lineNumber: 79,
+                                                            lineNumber: 100,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, l, false, {
                                                         fileName: "[project]/src/components/site-header.tsx",
-                                                        lineNumber: 78,
+                                                        lineNumber: 99,
                                                         columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/site-header.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 97,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/site-header.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 89,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/site-header.tsx",
-                                lineNumber: 53,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                                className: "hidden items-center gap-6 lg:flex",
-                                children: [
-                                    navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            href: link.href,
-                                            className: "text-sm font-medium text-slate-300 transition-colors hover:text-white",
-                                            children: link.label
-                                        }, link.href, false, {
-                                            fileName: "[project]/src/components/site-header.tsx",
-                                            lineNumber: 99,
-                                            columnNumber: 15
-                                        }, this)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2d$config$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["localePath"])("/contact", locale),
-                                        className: "rounded-full bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-emerald-600/25 transition hover:bg-emerald-500",
-                                        children: dict.header.startProject
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/site-header.tsx",
-                                        lineNumber: 107,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/site-header.tsx",
-                                lineNumber: 97,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2020,18 +2020,18 @@ function SiteHeader({ locale }) {
                                     className: "h-5 w-5"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-header.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 125,
                                     columnNumber: 21
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                     className: "h-5 w-5"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-header.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 125,
                                     columnNumber: 49
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/site-header.tsx",
-                                lineNumber: 116,
+                                lineNumber: 118,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -2059,12 +2059,12 @@ function SiteHeader({ locale }) {
                                     children: link.label
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-header.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 136,
                                     columnNumber: 17
                                 }, this)
                             }, link.href, false, {
                                 fileName: "[project]/src/components/site-header.tsx",
-                                lineNumber: 133,
+                                lineNumber: 135,
                                 columnNumber: 15
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2076,23 +2076,23 @@ function SiteHeader({ locale }) {
                                 children: dict.header.startProject
                             }, void 0, false, {
                                 fileName: "[project]/src/components/site-header.tsx",
-                                lineNumber: 144,
+                                lineNumber: 146,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/site-header.tsx",
-                            lineNumber: 143,
+                            lineNumber: 145,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/site-header.tsx",
-                    lineNumber: 131,
+                    lineNumber: 133,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/site-header.tsx",
-                lineNumber: 130,
+                lineNumber: 132,
                 columnNumber: 9
             }, this)
         ]
@@ -2198,7 +2198,7 @@ const dictionaries = {
             faq: "FAQ"
         },
         home: {
-            badge: "Agence web & mobile · Paris",
+            badge: "Agence web & mobile · Tunisie",
             heroTitleStart: "Nous créons des",
             heroHighlight: "applications",
             heroTitleEnd: "que vos utilisateurs adorent",
@@ -2224,7 +2224,7 @@ const dictionaries = {
             faqTitle: "Vos questions, nos réponses",
             contactTitle: "Un projet en tête ? Parlons-en.",
             contactText: "Réponse sous 24 h ouvrées, sans engagement.",
-            contactCity: "Paris, France",
+            contactCity: "Monastir, Tunisie",
             contactCta: "Lancer la conversation",
             ctaTitle: "Prêt à faire décoller votre projet ?",
             ctaText: "Racontez-nous votre idée. Nous revenons vers vous avec un plan d'action et une estimation claire, gratuitement.",
@@ -2477,7 +2477,7 @@ const dictionaries = {
             ],
             stats: [
                 {
-                    value: "60+",
+                    value: "30+",
                     label: "Projets livrés"
                 },
                 {
@@ -2529,7 +2529,7 @@ const dictionaries = {
             faq: "FAQ"
         },
         home: {
-            badge: "Web & Mobile Agency · Paris",
+            badge: "Web & Mobile Agency · Tunisia",
             heroTitleStart: "We build",
             heroHighlight: "applications",
             heroTitleEnd: "your users will love",
@@ -2555,7 +2555,7 @@ const dictionaries = {
             faqTitle: "Your questions, answered",
             contactTitle: "Got a project in mind? Let's talk.",
             contactText: "Reply within 24 business hours, no strings attached.",
-            contactCity: "Paris, France",
+            contactCity: "Monastir, Tunisia",
             contactCta: "Start the conversation",
             ctaTitle: "Ready to launch your project?",
             ctaText: "Tell us about your idea. We'll come back with an action plan and a clear estimate, for free.",
@@ -2808,7 +2808,7 @@ const dictionaries = {
             ],
             stats: [
                 {
-                    value: "60+",
+                    value: "30+",
                     label: "Projects delivered"
                 },
                 {
@@ -2860,7 +2860,7 @@ const dictionaries = {
             faq: "الأسئلة الشائعة"
         },
         home: {
-            badge: "وكالة ويب وجوال · باريس",
+            badge: "وكالة ويب وجوال · تونس",
             heroTitleStart: "نصنع",
             heroHighlight: "تطبيقات",
             heroTitleEnd: "يعشقها المستخدمون",

@@ -1,6 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/[lang]/services/page.js")
 R.c("server/chunks/ssr/node_modules_20vk735knadg3._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0wft_iuc5fcl5._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1fqpydto_jjxb._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_esm_server_0i519_x_u947b._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_esm_shared_lib_110_pvnwn9uqh._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_esm_lib_14dxwe5jtbc_d._.js")
@@ -12,8 +12,8 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_0wpq8j32_ibz4._.
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidden_0symwr9mbf-fh.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0xky89qu.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_0q-w892nagajq.js")
-R.c("server/chunks/ssr/node_modules_02vknkyjto7nt._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__1gi924t5g0-2e._.js")
+R.c("server/chunks/ssr/node_modules_1v27xi1ek-xnx._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1mv83xl5wm8vz._.js")
 R.c("server/chunks/ssr/_next-internal_server_app_[lang]_services_page_actions_02usd_3mwnwmw.js")
 R.m("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/[lang]/services/page { METADATA_0 => \"[project]/src/app/favicon.ico.mjs { IMAGE => \\\"[project]/src/app/favicon.ico (static in ecmascript, tag client)\\\" } [app-rsc] (structured image object, ecmascript)\", MODULE_1 => \"[project]/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_2 => \"[project]/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_3 => \"[project]/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_4 => \"[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_5 => \"[project]/src/app/[lang]/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_6 => \"[project]/src/app/[lang]/services/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\" } [app-rsc] (ecmascript)")
 module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/[lang]/services/page { METADATA_0 => \"[project]/src/app/favicon.ico.mjs { IMAGE => \\\"[project]/src/app/favicon.ico (static in ecmascript, tag client)\\\" } [app-rsc] (structured image object, ecmascript)\", MODULE_1 => \"[project]/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_2 => \"[project]/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_3 => \"[project]/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_4 => \"[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_5 => \"[project]/src/app/[lang]/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_6 => \"[project]/src/app/[lang]/services/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\" } [app-rsc] (ecmascript)").exports

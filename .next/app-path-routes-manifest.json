@@ -1,0 +1,9 @@
+{
+  "/[lang]/contact/page": "/[lang]/contact",
+  "/[lang]/page": "/[lang]",
+  "/[lang]/realisations/page": "/[lang]/realisations",
+  "/[lang]/services/page": "/[lang]/services",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico"
+}

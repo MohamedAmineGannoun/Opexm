@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/744885950b1fe0ff-s.p.30d2r2x65bwdm.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[lang]/layout,_N_T_/[lang]/realisations/layout,_N_T_/[lang]/realisations/page,_N_T_/ar/realisations"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$lang/realisations/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49248,
+            "slots": {
+              "children": {
+                "hints": 49312,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/06c3dd30d77aa72893de99b223a18bed3059307d952ca2cf0db463c40fba93e4/$/ar/realisations",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[lang]/realisations/page"
+    },
+    "isFallback": false
+  }
+}

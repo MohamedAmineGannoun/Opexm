@@ -38,20 +38,20 @@ export default async function HomePage({
       <section className="relative overflow-hidden">
         <div
           aria-hidden
-          className="pointer-events-none absolute -top-40 left-1/2 h-[30rem] w-[60rem] -translate-x-1/2 rounded-full bg-emerald-600/20 blur-3xl"
+          className="animate-float-slow pointer-events-none absolute -top-40 left-1/2 h-[30rem] w-[60rem] -translate-x-1/2 rounded-full bg-emerald-600/20 blur-3xl"
         />
         <div
           aria-hidden
-          className="pointer-events-none absolute top-40 end-0 h-72 w-72 rounded-full bg-teal-600/10 blur-3xl"
+          className="animate-float-slower pointer-events-none absolute top-40 end-0 h-72 w-72 rounded-full bg-teal-600/10 blur-3xl"
         />
 
         <div className="relative mx-auto max-w-6xl px-4 pt-20 pb-16 text-center sm:px-6 sm:pt-28 lg:pt-32">
-          <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium text-slate-300">
+          <p className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium text-slate-300">
             <Sparkles className="h-3.5 w-3.5 text-emerald-400" />
             {dict.home.badge}
           </p>
 
-          <h1 className="mx-auto mt-6 max-w-4xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          <h1 className="animate-fade-up-delay-1 mx-auto mt-6 max-w-4xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
             {dict.home.heroTitleStart}{" "}
             <span className="bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
               {dict.home.heroHighlight}
@@ -59,11 +59,11 @@ export default async function HomePage({
             {dict.home.heroTitleEnd}
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">
+          <p className="animate-fade-up-delay-2 mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">
             {dict.home.heroText}
           </p>
 
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <div className="animate-fade-up-delay-3 mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href={localePath("/contact", locale)}
               className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-8 py-4 text-sm font-semibold text-white shadow-xl shadow-emerald-600/30 transition hover:bg-emerald-500"

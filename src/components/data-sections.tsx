@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { dictionaries } from "@/lib/i18n-dictionaries";
 import { localePath, type Locale } from "@/lib/i18n-config";
 import { serviceIcons, projectVisuals } from "@/lib/data-static";
+import { ProjectScene } from "@/components/project-scenes";
 
 export function ServicesGrid({ locale }: { locale: Locale }) {
   const dict = dictionaries[locale];
@@ -58,13 +59,7 @@ export function ProjectsGrid({
             key={index}
             className="group overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] transition hover:border-white/25"
           >
-            <div
-              className={`flex h-44 items-center justify-center bg-gradient-to-br ${visual.gradient} lg:h-48`}
-            >
-              <span className="text-6xl drop-shadow-lg transition-transform group-hover:scale-110">
-                {visual.emoji}
-              </span>
-            </div>
+            <ProjectScene index={index} />
             <div className="p-6">
               <p className="text-xs font-semibold uppercase tracking-wider text-emerald-300">
                 {project.category}

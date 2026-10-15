@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Check, ChevronDown, Code2, Globe, Menu, X } from "lucide-react";
+import { Check, ChevronDown, Globe, Menu, X } from "lucide-react";
 import {
   isLocale,
   localeNames,
@@ -40,16 +40,39 @@ export function SiteHeader({ locale }: { locale: Locale }) {
           className="flex items-center gap-2"
           onClick={() => setOpen(false)}
         >
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-500 to-green-600">
-            <Code2 className="h-5 w-5 text-white" />
-          </span>
+          <img
+            src="/opexm-logo.svg"
+            alt="Opexm"
+            className="h-9 w-9"
+          />
           <span className="text-lg font-semibold tracking-tight">
             Opexm<span className="text-emerald-400">.</span>
           </span>
         </Link>
 
         <div className="flex items-center gap-3">
-          {/* Sélecteur de langue */}
+          
+
+          {/* Navigation desktop */}
+          <nav className="hidden items-center gap-6 lg:flex">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium text-slate-300 transition-colors hover:text-white"
+              >
+                {link.label}
+              </Link>
+            ))}
+            <Link
+              href={localePath("/contact", locale)}
+              className="rounded-full bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-emerald-600/25 transition hover:bg-emerald-500"
+            >
+              {dict.header.startProject}
+            </Link>
+          </nav>
+
+{/* Sélecteur de langue */}
           <div className="relative">
             <button
               type="button"
@@ -92,25 +115,6 @@ export function SiteHeader({ locale }: { locale: Locale }) {
               </>
             )}
           </div>
-
-          {/* Navigation desktop */}
-          <nav className="hidden items-center gap-6 lg:flex">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-slate-300 transition-colors hover:text-white"
-              >
-                {link.label}
-              </Link>
-            ))}
-            <Link
-              href={localePath("/contact", locale)}
-              className="rounded-full bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-emerald-600/25 transition hover:bg-emerald-500"
-            >
-              {dict.header.startProject}
-            </Link>
-          </nav>
 
           {/* Bouton menu mobile */}
           <button
